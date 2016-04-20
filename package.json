@@ -1,0 +1,35 @@
+{
+  "name": "react-slide",
+  "version": "0.1.0",
+  "description": "A full page component that slides from the bottom similar to a modal",
+  "main": "./dist/Slide.js",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/the-unsullied/react-slide"
+  },
+  "scripts": {
+    "build": "rm -rf dist && mkdir -p dist && babel src/Slide.jsx --out-file dist/Slide.js && node ./scripts/build-dist && cp src/main.scss dist/Slide.scss && node ./scripts/build-dist",
+    "babel": "babel src/Slide.jsx --out-file dist/Slide.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React",
+    "component",
+    "slide"
+  ],
+  "author": "Points",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.6.5",
+    "babel-core": "^6.7.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-plugin-transform-react-jsx": "^6.7.4",
+    "babel-preset-es2015": "^6.6.0",
+    "classnames": "^2.2.3",
+    "node-sass": "^3.4.2",
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8"
+  }
+}
