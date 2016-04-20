@@ -1,5 +1,5 @@
 {
-  "name": "react-slide",
+  "name": "react-slide-unsullied",
   "version": "0.1.0",
   "description": "A full page component that slides from the bottom similar to a modal",
   "main": "./dist/Slide.js",
@@ -15,7 +15,8 @@
   "keywords": [
     "React",
     "component",
-    "slide"
+    "slide",
+    "fullpage"
   ],
   "author": "Points",
   "license": "MIT",
