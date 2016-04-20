@@ -1,16 +1,10 @@
-# react-fancy-button
+# react-slide
 
-React component button with spinner.
+React full page component that slides from bottom and behaves similar to a modal.
 
 
 ## Params
 
-**classes** {String}  string of classes on button element
+**closeSlide** {Number}  when incremented will close the slide
 
-**type** {String} type of button
-
-**label** {String} content in button
-
-**trigger** {Boolean} hides/shows spinner
-
-**onClick** {String} action on click
+**handleClose** {String}  callback function that will be executed after completion of slide close animation
