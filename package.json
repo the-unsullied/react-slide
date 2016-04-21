@@ -1,6 +1,6 @@
 {
   "name": "react-slide-unsullied",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A full page component that slides from the bottom similar to a modal",
   "main": "./dist/Slide.js",
   "repository" : {
